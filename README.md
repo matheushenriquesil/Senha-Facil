@@ -41,8 +41,9 @@ O sistema cria senhas com prioridade, salva o histórico e é fácil de usar e e
    ```bash
    git clone https://github.com/seu-usuario/gerador-senhas.git
    cd gerador-senhas
+   
 
-🗂️ Roadmap Passo a Passo – Sistema de Senhas Automáticas
+##🗂️ Roadmap Passo a Passo – Sistema de Senhas Automáticas
 
  Planejamento Inicial
 
