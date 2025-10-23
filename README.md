@@ -42,27 +42,85 @@ O sistema cria senhas com prioridade, salva o histórico e é fácil de usar e e
    git clone https://github.com/seu-usuario/gerador-senhas.git
    cd gerador-senhas
 
+🗂️ Roadmap Passo a Passo – Sistema de Senhas Automáticas
 
+ Planejamento Inicial
 
+Definir objetivo do sistema (senhas automáticas, preferenciais, histórico).
 
-## 🗺️ Andamento do Projeto — Status Atual
+Distribuir funções entre equipe (programador, designer, gerente).
+Justificativa: Adicionei como etapa explícita para deixar claro o escopo antes de começar a codar.
 
-| Etapa | Descrição | Status |
-|:------|:-----------|:--------:|
-| 🖌️ Protótipo de Telas | Telas e fluxo do sistema desenhados (planejamento visual e estrutura do menu) | ✅ Concluído |
-| 🧩 Desenvolvimento Inicial | Configuração do ambiente e início do código base em Python | 🟡 Em andamento |
-| ⚙️ Configuração do Projeto | Ajustes de arquivos (`README`, `ROADMAP`, `historico.csv`, `gerador_senhas.py`) | 🔜 A iniciar |
-| 🚀 Programa Pronto para Rodar | Versão final funcional do sistema (CLI simples em Python) | 🔮 Futuro |
+ Protótipo de Tela
 
----
+Criar layout visual inicial (fluxo das telas, botões, exibição de senha).
+Justificativa: Mantido como no README; essencial para guiar a implementação.
 
-📆 **Resumo:**
-- Protótipo de telas já está **100% pronto** 🎨  
-- O código em **Python** já está sendo desenvolvido e **funciona no terminal**  
-- Próximos passos: **organizar pastas, configurar arquivos e preparar entrega final**  
-- Versão final (com histórico e geração de senhas) prevista para ser entregue **até o fim do mês**
+ Configuração do Projeto
 
----
+Criar pasta do projeto no VS Code.
+
+Inicializar arquivos: main.py, README.md, ROADMAP.md.
+
+Configurar virtual environment (venv) para Python.
+Justificativa: Adicionei o venv para padronizar o ambiente Python, evita erros de biblioteca.
+
+ Implementação da Geração de Senhas
+
+Criar função para gerar senha normal.
+
+Criar função para gerar senha preferencial.
+
+Testar a geração de senhas no terminal.
+Justificativa: Separei a geração de senhas normais e preferenciais para facilitar testes individuais.
+
+ Navegação entre Senhas e Histórico
+
+Criar função para exibir "senha atual".
+
+Criar função para ir para "senha anterior" e "senha próxima".
+
+Salvar histórico de senhas em arquivo .csv.
+Justificativa: Mantido, mas adicionei explicitamente o “exibir senha atual” para não se perder na navegação.
+
+ Interface Simples no Terminal (Opcional)
+
+Menu básico para selecionar: gerar nova senha, ver senha atual, avançar/voltar, visualizar histórico.
+Justificativa: Facilita testes e uso antes de pensar em GUI.
+
+ Testes e Ajustes
+
+Testar todas as funções individualmente.
+
+Corrigir bugs de geração, histórico e navegação.
+
+Validar arquivos .csv (integridade e leitura).
+Justificativa: Mantido; essencial para estabilidade.
+
+ Documentação e Preparação Final
+
+Revisar README.md e ROADMAP.md.
+
+Preparar guia rápido de uso para apresentação.
+
+Adicionar comentários no código para melhor entendimento.
+Justificativa: Adicionei comentários no código como passo explícito para boas práticas.
+
+ Entrega Final
+
+Programa funcional com geração de senha, histórico e navegação.
+
+Todos os arquivos organizados no projeto.
+
+Preparação para apresentação à turma/escola.
+Justificativa: Mantido, etapa final clara.
+
+ Futuras Evoluções (Opcional)
+
+Criar interface gráfica (GUI) usando Tkinter.
+
+Criar versão web simples (Flask ou Streamlit).
+Justificativa: Mantido como evolução futura; não atrapalha o desenvolvimento inicial.
 
 💡 **Objetivo final:**  
 Ter um **programa funcional e simples**, que gere senhas automáticas (normais e prioritárias), registre histórico e possa futuramente ser adaptado para interface gráfica ou web.
